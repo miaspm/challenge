@@ -1,0 +1,119 @@
+body {
+    background: #2D9CDB;
+    color: #F2F2F2;
+}
+
+article {
+    display: flex;
+}
+
+.title {
+    position: absolute;
+    width: 65%;
+    height: 20%;
+    left: 28%;
+    top: 20%;
+    font-family: Fira Sans, sans-serif;
+    font-weight: 20px;
+    font-size: 64px;
+    line-height: 76,8px;
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle {
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    left: 30%;
+    top: 55%;
+    font-family: Fira Sans, sans-serif;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.first-part-about-project {
+    font-family: Fira Sans, sans-serif;
+    position: absolute;
+    width: 22%;
+    height: 10%;
+    left: 30%;
+    top: 41%;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.second-part-about-project {
+    font-family: Fira Sans, sans-serif;
+    position: absolute;
+    width: 23%;
+    height: 10%;
+    left: 30%;
+    top: 62%;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.button-start {
+    display: flex;
+    position: absolute;
+    width: 121px;
+    height: 51px;
+    left: 59%;
+    top: 54%;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #29D64F 0%, #2EA644 51.93%, #1EB336 100%);
+    font-family: Fira Sans, sans-serif;
+    box-shadow: 0px 5.14268px 8.57113px rgba(0, 0, 0, 0.15);
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.start {
+    position: absolute;
+    width: 85px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
+    padding-left: 20px;
+}
+
+.array-on-button {
+    z-index: -1;
+    top: 2.5px;
+    left: 90.25px;
+    flex-direction: row-reverse;
+    transform-origin: bottom;
+    width: 36.5px;
+    height: 36.5px;
+    position: absolute;
+    transform: rotate(45deg);
+    background: linear-gradient(135deg, #29D64F 0%, #2EA644 51.93%, #1EB336 100%);
+}
+
+.underlined-text {
+    font-family: Fira Sans;
+    font-style: Hair;
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    font-size: 85%;
+    line-height: 130%;
+    opacity: 0.75;
+    text-decoration: underline;
+}
+
+.how-does-it-work {
+    left: 30%;
+    top: 73%;
+}
+
+.registred {
+    left: 58.5%;
+    top: 62%;
+}
