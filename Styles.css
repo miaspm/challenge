@@ -31,7 +31,7 @@ article {
     font-size: 120%;
 }
 
-.first-part-about-project {
+.description__first-block {
     font-family: Fira Sans, sans-serif;
     position: absolute;
     width: 22%;
@@ -42,7 +42,7 @@ article {
     line-height: 17px;
 }
 
-.second-part-about-project {
+.description__second-block {
     font-family: Fira Sans, sans-serif;
     position: absolute;
     width: 23%;
@@ -70,7 +70,7 @@ article {
     align-items: center;
 }
 
-.start {
+.button-start__sign {
     position: absolute;
     width: 85px;
     height: 28px;
@@ -83,7 +83,7 @@ article {
     padding-left: 20px;
 }
 
-.array-on-button {
+.button-start__array {
     z-index: -1;
     top: 2.5px;
     left: 90.25px;
@@ -96,7 +96,7 @@ article {
     background: linear-gradient(135deg, #29D64F 0%, #2EA644 51.93%, #1EB336 100%);
 }
 
-.underlined-text {
+.info-tooltip {
     font-family: Fira Sans;
     font-style: Hair;
     position: absolute;
